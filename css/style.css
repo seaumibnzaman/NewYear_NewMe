@@ -1,0 +1,335 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    
+    }
+    
+    header {
+    width: 100%;
+    height: 95vh;
+    background-image: url(../images/banner/banner1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    
+    nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0;
+    
+    background-color: #6ab48f;
+    align-items: center;
+    }
+    
+    .pic img {
+    width: 50px;
+    height: 50px;
+    align-items: left;
+    }
+    
+    .navbar ul {
+    display: flex;
+    }
+    
+    .navbar li {
+    list-style: none;
+    }
+    
+    .navbar li a {
+    text-decoration: none;
+    padding: 20px 20px;
+    color: #020202;
+    font-size: 22px;
+    font-weight: 600;
+    font-family:Arial, Helvetica;
+    
+    }
+    
+    .banner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    }
+    
+    .banner-title {
+    font-weight: 900;
+    font-size: 45px;
+    color: #151414;
+    padding: 100px 165px 0 450px;
+    font-family: 'Allerta', sans-serif;
+    
+    }
+    
+    .banner-details {
+    font-size: 14px;
+    color: #000000;
+    padding: 20px 180px 0 600px;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .btn {
+    border-radius: 5px;
+    color: #d3cccc;
+    background-color: #1e6b47;
+    padding: 12px 25px;
+    border: 1px solid #95bbca;
+    
+    }
+    
+    .contact-btn {
+    margin: 20px 180px 0 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff7f7;
+    }
+    
+    .Contrary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .Contrary-img-left img {
+    width: 480px;
+    height: 600px;
+    margin: 80px 0 30px 0px;
+    }
+    
+    .Contrary-text-left {
+    padding: 0 100px;
+    }
+    
+    .Contrary-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding: 20px 0;
+    }
+    
+    .Contrary-details {
+    font-weight: 400;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #444343;
+    padding: 20px 0;
+    }
+    
+    .greencheckmark {
+    list-style: none;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    .greencheckmark li:before {
+    content: '✓';
+    color: rgb(22, 133, 22);
+    font-size: 22px;
+    font-weight: 700;
+    }
+    
+    
+    .myplans {
+    width: 100%;
+    font-weight: 1200;
+    }
+    
+    .header-title {
+    text-align: center;
+    font-Weight: 700;
+    Size: 40px;
+    color: #151414;
+    padding: 40px 0;
+    justify-content: space-around;
+    font-weight: bold;
+    }
+    
+    .myplans-lists {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    }
+    
+    .lists {
+    width: 17%;
+    padding: 20px 10px;
+    margin: 0 5px;
+    }
+    
+    .lists img {
+    width: 80px;
+    height: 80px;
+    }
+    
+    
+    
+    .myplans-img {
+    padding: 20px 0;
+    }
+    
+    .myplans-title {
+    font-Weight: 700;
+    Size: 26px;
+    color: #151414;
+    padding: 20px 0;
+    }
+    
+    .myplans-subtitle {
+    font-weight: 500;
+    font-size: 21px;
+    color: #737272;
+    font-family: 'Work Sans';
+    }
+    
+    
+    .positive {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 50px 0;
+    
+    }
+    
+    .img-op-wh {
+    background-image: url(../images/watch.png), linear-gradient(90deg, rgb(60, 150, 224), rgba(10, 218, 255, 0.596), rgba(255, 88, 10, 0));
+    border-radius: 5px;
+    width: 1000px;
+    height: 280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-blend-mode: overlay;
+    }
+    
+    .mindset {
+    padding: 50px;
+    font-size: 24px;
+    font-Weight: 700;
+    }
+    
+    .op-text {
+    color: #ffffff;
+    text-shadow: 2px 2px #3700ff;
+    
+    }
+    
+    .call-icon {
+    margin: 9 px;
+    }
+    
+    .op-btn {
+    padding: 15px 35spx;
+    color: rgb(33, 25, 107);
+    background-color: #FFFFFF;
+    margin: 22px 0;
+    font-size: 20px;
+    font-weight: 700;
+    
+    }
+    
+    
+    footer{
+    text-align: center;
+    }
+    .footersec {
+    width: 100%;
+    height: 70vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    }
+    
+    .footertitle {
+    color: #ffffff;
+    padding: 45px 0 20px 0;
+    font-size: 45px;
+    font-weight: 600;
+    }
+    
+    .f-details {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 120;
+    font-family: sans-serif;
+    line-height: 27px;
+    
+    }
+    
+    .email {
+    color: #ffffff;
+    padding: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    }
+    
+    .social-icons {
+    display: flex;
+    font-size: 30px;
+    }
+    .color-f{
+    color: #1da1f2;
+    }
+    .color-t{
+    color: #062b4e;
+    }
+    .color-y{
+    color: #ff0000;
+    }
+    .icon-fb {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 50px 50px;
+    margin: 10px 10px;
+    transition: .5s;
+    
+    }
+    .icon-fb:hover{
+    transition: .5s;
+    color: #FFFFFF;
+    background-color: #1da1f2;
+    }
+    
+    .footerside2{
+    width: 26%;
+    height: 50vh;
+    
+    }
+    .subscribe{
+    color: #FFFFFF;
+    font-size: 35px;
+    }
+    .input-mail input{
+    width: 60%;
+    padding: 14px 10px;
+    margin: 20px 0;
+    background-color: #151414;
+    border-radius: 5px;
+    border: 1px solid #ececec;
+    }
+    .btn-subscribe{
+    padding: 14px 35px;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #151414;
+    }
+    .btn-subscribe:hover{
+    background-color: #2a1da5;
+    color: #FFFFFF;
+    border: 1px solid #ffffff;
+    }
